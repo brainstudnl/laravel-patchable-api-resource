@@ -1,5 +1,7 @@
 <?php
 
+namespace Brainstud\PatchableApiResource;
+
 use Illuminate\Routing\Route;
 
 class ResourceRegistrar extends \Illuminate\Routing\ResourceRegistrar

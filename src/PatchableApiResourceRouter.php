@@ -1,5 +1,7 @@
 <?php
 
+namespace Brainstud\PatchableApiResource;
+
 use Illuminate\Routing\PendingResourceRegistration;
 use Illuminate\Routing\Router;
 
