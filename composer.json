@@ -1,5 +1,5 @@
 {
-  "name": "brainstud/laravel-patchable-api-resources",
+  "name": "brainstud/laravel-patchable-api-resource",
   "description": "A route generator that generates distinct put and patch endpoints",
   "minimum-stability": "dev",
   "prefer-stable": true,
