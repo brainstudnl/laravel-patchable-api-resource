@@ -27,6 +27,7 @@ class PatchableApiResourceRouter extends Router
      * @param $name
      * @param $controller
      * @param array $options
+     * @return \Illuminate\Routing\PendingResourceRegistration
      */
     public function patchableApiResource($name, $controller, array $options = [])
     {
