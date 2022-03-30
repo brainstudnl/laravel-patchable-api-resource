@@ -32,4 +32,4 @@ Route::patchableApiResource('items', ItemController::class);
 ```
 
 ## License
-laravel-patchable-api-resource is open-sourced software licensed under the [MIT Licence](LICENSE)
+laravel-patchable-api-resource is open-sourced software licensed under the [MIT License](LICENSE)
