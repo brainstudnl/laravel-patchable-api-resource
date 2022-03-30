@@ -17,6 +17,7 @@ $app->singleton(
     'router',
     \Brainstud\PatchableApiResource\PatchableApiResourceRouter::class
 );
+```
 
 ## Usage
 Registering a patchable API-resource works the same as the default `Route::apiResource` and `Route::apiResources` methods.
@@ -32,4 +33,4 @@ Route::patchableApiResource('items', ItemController::class);
 ```
 
 ## License
-laravel-patchable-api-resource is open-sourced software licensed under the [MIT Licence](LICENSE)
+laravel-patchable-api-resource is open-sourced software licensed under the [MIT License](LICENSE)
