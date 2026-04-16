@@ -1,38 +1,31 @@
 {
-    "name": "brainstud/laravel-patchable-api-resource",
-    "description": "A route generator that generates distinct put and patch endpoints",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Fabian d'Angremont",
-            "email": "fabian@brainstud.com",
-            "homepage": "https://brainstud.com",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": "^8.2",
-        "illuminate/routing": "^10|^11.0|^12.0"
-    },
-    "require-dev": {
-        "illuminate/support": "^10.0|^11.0|^12.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Brainstud\\PatchableApiResource\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Brainstud\\PatchableApiResource\\Test\\": "tests"
-        }
-    },
-    "scripts": {
-        "test": "vendor/bin/phpunit"
-    },
-    "config": {
-        "sort-packages": true
+  "name": "brainstud/laravel-patchable-api-resource",
+  "description": "A route generator that generates distinct put and patch endpoints",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "MIT",
+  "authors": [],
+  "require": {
+    "php": "^8.5",
+    "illuminate/routing": "^12.0||^13.0"
+  },
+  "require-dev": {
+    "illuminate/support": "^12.0||^13.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Brainstud\\PatchableApiResource\\": "src"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Brainstud\\PatchableApiResource\\Test\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "config": {
+    "sort-packages": true
+  }
 }
